@@ -65,7 +65,7 @@ int Busca(struct Node* root, int data){
 void main(){
 
 	struct Node* root = NULL; //cria uma arvore vazia
-	root = Insert(root, 10); //use scanf to ask data to the user
+	root = Insert(root, 10); 
 	root = Insert(root, 20);
 	root = Insert(root, 15);
 	root = Insert(root, 5);
